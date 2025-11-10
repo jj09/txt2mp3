@@ -22,11 +22,14 @@ pip install asyncio
 
 ## Usage
 
-Put input `.txt` files in `files` directory.
+1. Set `VOICE`, `INPUT_DIR` and `OUTPUT_DIR` in `txt2mp3.py` (in `=== CONFIG: CHANGE THESE ===` section)
+2. Put input `.txt` files in `INPUT_DIR` directory.
+3. Run script:
 
 ```
 python txt2mp3.py
 ```
 
-Output `.mp3` files will be created in `output` directory.
+Output `.mp3` files will be created in `OUTPUT_DIR` directory.
 
+![alt text](image.png)
